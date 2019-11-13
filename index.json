@@ -1,24 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@iclozy 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-0
-00SerpentDeFeu/Serpent-
- Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights
-Serpent-/package.json
-@SerpentDeFeu SerpentDeFeu Add files via upload
-3933cf5 on 22 Sep 2018
-736 lines (554 sloc)  46.2 KB
-  
 
 
 
@@ -48,7 +27,7 @@ Serpent-/package.json
 
   <meta name="viewport" content="width=device-width">
   
-  <title>video_file/package.json at master · alexpgm/video_file · GitHub</title>
+  <title>video_file/index.json at master · alexpgm/video_file · GitHub</title>
     <meta name="description" content="Contribute to alexpgm/video_file development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -61,7 +40,7 @@ Serpent-/package.json
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="CE19:6FA0:48F96F1:6C5B1EF:5BA63557" data-pjax-transient>
+  <meta name="request-id" content="CBA7:6FA0:48A7DBC:6BEBA6A:5BA62F68" data-pjax-transient>
 
 
   
@@ -72,7 +51,7 @@ Serpent-/package.json
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="CE19:6FA0:48F96F1:6C5B1EF:5BA63557" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="CBA7:6FA0:48A7DBC:6BEBA6A:5BA62F68" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -90,7 +69,7 @@ Serpent-/package.json
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MWExOGNhYTIxZTJmODgwMmQ1MGUwMzZjNWFlZGE3MDVkNDEzNmQ3YWY4NDA2YWU0NWRhZmYzNTU2MTQwYzJjNnx7InJlbW90ZV9hZGRyZXNzIjoiODYuMjM1LjE2LjE3MCIsInJlcXVlc3RfaWQiOiJDRTE5OjZGQTA6NDhGOTZGMTo2QzVCMUVGOjVCQTYzNTU3IiwidGltZXN0YW1wIjoxNTM3NjE5MzEzLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="MjM2NjkzYzA1ODY5MmY2OWViNjA5ZDNjYzY0MTI3MjlhY2Q2MTFlMTcwZTJmODNhZWJmOGMwYThlNjY3ODJmNnx7InJlbW90ZV9hZGRyZXNzIjoiODYuMjM1LjE2LjE3MCIsInJlcXVlc3RfaWQiOiJDQkE3OjZGQTA6NDhBN0RCQzo2QkVCQTZBOjVCQTYyRjY4IiwidGltZXN0YW1wIjoxNTM3NjE3ODAxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR,QUOTE_MARKDOWN">
 
@@ -106,7 +85,7 @@ Serpent-/package.json
   <meta name="octolytics-dimension-user_id" content="35507280" /><meta name="octolytics-dimension-user_login" content="alexpgm" /><meta name="octolytics-dimension-repository_id" content="146739752" /><meta name="octolytics-dimension-repository_nwo" content="alexpgm/video_file" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="146739752" /><meta name="octolytics-dimension-repository_network_root_nwo" content="alexpgm/video_file" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/alexpgm/video_file/blob/master/package.json" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/alexpgm/video_file/blob/master/index.json" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -142,7 +121,7 @@ Serpent-/package.json
           <p class="m-0">We recommend upgrading to the latest <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft Edge</a>, <a href="https://chrome.google.com">Google Chrome</a>, or <a href="https://mozilla.org/firefox/">Firefox</a>.</p>
       </div>
       <div class="d-flex flex-items-center flex-shrink-0 ">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_unsupported_browser" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OX9xpbf1YU5SmSPSb8fwwoFSJvyjYXIIg1izf1JtyJTYZsdrkYu7HU5F+jEh1pw3MZHO2ziFki0jirU0FFwecg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_unsupported_browser" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gySz9rwyR44TqkRK4kxeNXedlPb6PWn7h3DRQzdtFONiPQU4mkyd3Q92namsXTLAx1580WHZid4notcIcVzCBQ==" />
           <button type="submit" class="btn btn-danger">Ignore</button>
 </form>        <a href="https://help.github.com/articles/supported-browsers" class="btn ml-2">Learn more</a>
       </div>
@@ -205,7 +184,7 @@ Serpent-/package.json
           autocapitalize="off"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=7lJgdFbOawyotO+kZoJI0nsnU8eFj4jATQTS2kI0iw/YAjE8iTmcXb1Z3pGcp3bZQnkme89wetTk58iRKzc+Sg=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=1I17qHB6/gxqzjs8NFLbxSoff6i9oPTUg9WQaxj1Stri3Srgr40JXX8jCgnOd+XOE0EKFPdfBsAqNoogcfb/nw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -264,7 +243,7 @@ Serpent-/package.json
 
           <span class="d-inline-block">
               <div class="HeaderNavlink px-0 py-2 m-0">
-                <a class="text-bold text-white no-underline" href="/login?return_to=%2Falexpgm%2Fvideo_file%2Fblob%2Fmaster%2Fpackage.json" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in; experiment:site_header_dropdowns; group:control">Sign in</a>
+                <a class="text-bold text-white no-underline" href="/login?return_to=%2Falexpgm%2Fvideo_file%2Fblob%2Fmaster%2Findex.json" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in; experiment:site_header_dropdowns; group:control">Sign in</a>
                   <span class="text-gray">or</span>
                   <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up; experiment:site_header_dropdowns; group:control">Sign up</a>
               </div>
@@ -407,14 +386,14 @@ Serpent-/package.json
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/alexpgm/video_file/blob/a6945cbf440445ddfa065de1946ef169ebce058e/package.json">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/alexpgm/video_file/blob/a6945cbf440445ddfa065de1946ef169ebce058e/index.json">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:3433258a73178c2565559b32054d7b16 -->
+  <!-- blob contrib key: blob_contributors:v21:6c69151dbab2e049f86604c1b10acfba -->
 
       <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NYtuf85P4CiKzJcJEaYLbN4DtJ6BBTodDld2xiiiGAcVdXNoOI17GvNMzro/aQ3tna3BOjS16r4DSAQYBgs4Wg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4NJs1u9Q0j+hx9q18vBoPYjzhIAzEI2ubmHEdSAOtV3ALHHBGZJJDdhHgwbcP268y13xJIagXQ1jfrarDqeVAA==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
@@ -457,7 +436,7 @@ Serpent-/package.json
       <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
         <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/alexpgm/video_file/blob/master/package.json"
+               href="/alexpgm/video_file/blob/master/index.json"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -489,10 +468,10 @@ Serpent-/package.json
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/alexpgm/video_file"><span>video_file</span></a></span></span><span class="separator">/</span><strong class="final-path">package.json</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/alexpgm/video_file"><span>video_file</span></a></span></span><span class="separator">/</span><strong class="final-path">index.json</strong>
     </div>
   </div>
-  <include-fragment src="/alexpgm/video_file/contributors/master/package.json" class="commit-tease commit-loader">
+  <include-fragment src="/alexpgm/video_file/contributors/master/index.json" class="commit-tease commit-loader">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -505,9 +484,9 @@ Serpent-/package.json
     <div class="file-header">
   <div class="file-actions">
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/alexpgm/video_file/raw/master/package.json">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/alexpgm/video_file/blame/master/package.json">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/alexpgm/video_file/commits/master/package.json">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/alexpgm/video_file/raw/master/index.json">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/alexpgm/video_file/blame/master/index.json">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/alexpgm/video_file/commits/master/index.json">History</a>
     </div>
         <a class="btn-octicon tooltipped tooltipped-nw"
            href="https://desktop.github.com"
@@ -525,9 +504,9 @@ Serpent-/package.json
         </button>
   </div>
   <div class="file-info">
-      15 lines (14 sloc)
+      5 lines (3 sloc)
       <span class="file-info-divider"></span>
-    259 Bytes
+    49 Bytes
   </div>
 </div>
     
@@ -539,55 +518,15 @@ Serpent-/package.json
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>bot<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">    </td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>version<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>1.0.0<span class="pl-pds">&quot;</span></span>,</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>token<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>past your token here<span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>description<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>,</td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>main<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>index.js<span class="pl-pds">&quot;</span></span>,</td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>scripts<span class="pl-pds">&quot;</span></span>: {</td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>test<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>echo <span class="pl-cce">\&quot;</span>Error: no test specified<span class="pl-cce">\&quot;</span> &amp;&amp; exit 1<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">  },</td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>author<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>alexpgm<span class="pl-pds">&quot;</span></span>,</td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>license<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>ISC<span class="pl-pds">&quot;</span></span>,</td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">  <span class="pl-s"><span class="pl-pds">&quot;</span>dependencies<span class="pl-pds">&quot;</span></span>: {</td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>discord.js<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>^11.3.2<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">  }</td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
 </table>
   <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
@@ -598,7 +537,7 @@ Serpent-/package.json
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/alexpgm/video_file/blame/a6945cbf440445ddfa065de1946ef169ebce058e/package.json">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/alexpgm/video_file/blame/a6945cbf440445ddfa065de1946ef169ebce058e/index.json">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/alexpgm/video_file/issues/new">Open new issue</a></li>
       </ul>
     </details-menu>
@@ -628,7 +567,7 @@ Serpent-/package.json
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.13080s from unicorn-f4f997679-6gr2c">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.16733s from unicorn-71601669-93773">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -711,16 +650,3 @@ Serpent-/package.json
 
   </body>
 </html>
-
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
